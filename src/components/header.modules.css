@@ -1,9 +1,113 @@
-.header {
-  border: 5px solid blue;
-  background-color: black;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.paragraf {
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: 400;
+  color: #211f54;
+  transition: 50ms;
+  &:hover {
+    transform: scale(1.02);
+  }
+}
+
+button {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
   color: white;
-  border-radius: 16px;
-  height: 40px;
-  text-align: center;
+  padding: 13px 18px;
+  background-color: #0075ff;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  transition: 10ms;
+  &:hover {
+    background-color: #211f54;
+    transform: scale(1.01);
+  }
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 17px 0;
+}
+
+.header_flex {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.header_p {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.quality_p {
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+  color: #211f54;
   width: 100%;
+  margin-bottom: 30px;
+}
+
+.p_element {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #6e7191;
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.call_p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #6e7191;
+  margin-bottom: 10px;
+}
+
+.nomer {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 20px;
+  color: #211f54;
+}
+
+.tel_nomer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tel-flex {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header_home {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 60px
 }

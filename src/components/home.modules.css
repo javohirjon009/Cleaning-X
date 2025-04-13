@@ -1,0 +1,57 @@
+@import url(./header.modules.css);
+
+.about_us {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 40px;
+  color: #211f54;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 15px;
+}
+
+.about_us_bottom {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 21px;
+  text-align: center;
+  color: #6e7191;
+  width: 55%;
+  margin: auto;
+}
+
+.cart_title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  color: #211f54;
+  margin-top: 17px;
+  margin-left: 12px;
+  margin-bottom: 10px;
+}
+
+.cart_p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #6e7191;
+  width: 100%;
+  line-height: 30.01px;
+}
+
+.cart {
+  width: 400px;
+  margin-top: 60px;
+}
+.kal {
+  margin-left: 85px;
+}
+
+.cart_flex {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
