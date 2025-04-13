@@ -3,6 +3,7 @@ import "./home.modules.css";
 import kalendar from "../assets/img/IMAGE (17).png";
 import karta from "../assets/img/IMAGE (18).png";
 import clear from "../assets/img/IMAGE (19).png";
+import house from "../assets/img/IMAGE (20).png";
 
 function Home() {
   return (
@@ -38,6 +39,42 @@ function Home() {
             Nunc maecenas sollicitudin metus tellus mattis sed porttitor cursus
             eleifend.
           </p>
+        </div>
+      </div>
+      <div className="btn_flex">
+        <button>Get a free quote</button>
+        <button className="Explore_btn">Explore services</button>
+      </div>
+      <div>
+        <div className="title_service">
+          <p className="our_ser">Our Services</p>
+          <button className="Explore_btn">Explore services</button>
+        </div>
+        <div className="page_flex">
+          <div className="page">
+            <img src={house} className="house_img" alt="" />
+            <p className="page_text">House cleaning</p>
+            <p className="lorem_text">
+              Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+              dalaracc lacus vel facilisis volutpat est.
+            </p>
+          </div>
+          <div className="page">
+            <img src={house} className="house_img" alt="" />
+            <p className="page_text">House cleaning</p>
+            <p className="lorem_text">
+              Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+              dalaracc lacus vel facilisis volutpat est.
+            </p>
+          </div>
+          <div className="page">
+            <img src={house} className="house_img" alt="" />
+            <p className="page_text">House cleaning</p>
+            <p className="lorem_text">
+              Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+              dalaracc lacus vel facilisis volutpat est.
+            </p>
+          </div>
         </div>
       </div>
     </div>

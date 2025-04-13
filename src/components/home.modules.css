@@ -55,3 +55,83 @@
   gap: 40px;
 }
 
+.Explore_btn {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  color: #211f54;
+  padding: 13px 18px;
+  background-color: #eff0f6;
+  box-shadow: 0px 4px 10px 0px #14142b0a;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    background-color: #211f54;
+    transform: scale(1.01);
+    color: white;
+  }
+}
+
+.btn_flex {
+  margin-top: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.our_ser {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 48px;
+  color: #211f54;
+}
+
+.title_service {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.page_text {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  color: #211f54;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.lorem_text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 21px;
+  color: #6e7191;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.page {
+  width: 388px;
+  height: 494;
+  border-radius: 16px;
+  border-width: 1px;
+  border: 1px solid #eff0f6;
+  box-shadow: 0px 2px 6px 0px #14142b0a;
+  padding: 40px 0;
+}
+
+.house_img {
+  margin-left: 70px;
+}
+
+.page_flex {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  margin-top: 60px;
+}
